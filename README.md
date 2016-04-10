@@ -3,9 +3,7 @@ Full high bandwidth DDOS
 
 WARNING the following DDOS is extremely volatile and may cause your PC to crash if left unchecked. I am not responsible for any crashed and subsequent loss of data from using this code.
 
-Code requires an active webserver to connect to. It expects the webserver to post the following line (IP address)
-(Client) e.g. 192.168.1.1
-1 It will not understand anything more and will error.
+Code requires an active webserver to connect to. It expects the webserver to post the following line (IP address)<./br>(Client) e.g. 192.168.1.1<./br> (remove the .)1 It will not understand anything more and will error.
 
 This is using UDP sockets which will spike all your upload speed without any caps. This will kick you off any application/games which you must upload to, including skype, TeamSpeak etc...
 
