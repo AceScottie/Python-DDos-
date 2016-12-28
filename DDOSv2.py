@@ -1,7 +1,7 @@
 import time, socket, os, sys, string, urllib2, threading
 t = [None] *100
 def attack():
-	host = '81.131.247.8'
+	host = ''
 	port = 80
 	message="#I am virtually kicking your ass. "
 	ip = socket.gethostbyname( host )
